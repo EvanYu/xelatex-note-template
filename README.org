@@ -1,0 +1,34 @@
+* 简介
+这是一个 xelatex 的模板，采用书的格式，主要用于整理和制作笔记。
+
+* 依赖
+** 宏包
++ geometry
++ xeCJK
++ natbib
++ titlesec, titletoc
++ xCJKnumb
++ amssymb,amsmath,amsthm
++ diagbox
++ multirow
++ booktabs
++ rotating
++ tabularx
++ graphicx
++ footnote
++ threeparttable
++ hyperref
+
+** 字体
++ Adobe Song Std
++ Adobe Kaiti Std
++ Adobe Heiti Std
++ Adobe Fangsong Std
++ FZBeiWeiKaiShu-S19S
++ FZXiaoBiaoSong-B05S
++ TeX Gyre Pagella
++ Courier New
+
+* 注意事项
++ 默认的系统是使用 Linux，如果使用其他的系统请注意修改 Makefile
++ 示例文档可运行 $ make help
