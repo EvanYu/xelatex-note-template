@@ -25,6 +25,7 @@ help:data/style.tex data/help.tex data/reference.bib
 
 # Have not contain the reference
 debug:main.tex data/style.tex
+	test -d $(TMP) || mkdir -p $(TMP) && mkdir -p $(TMP)/data
 	xelatex -output-directory=$(TMP) main.tex
 
 all:main.tex data/style.tex data/reference.bib
